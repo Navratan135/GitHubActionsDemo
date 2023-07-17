@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: Run a multi-line script
+        run: |
+          echo "Hello World!"
+          echo "Hello World Again!"
+          
